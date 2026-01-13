@@ -12,8 +12,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
         body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
-        .gradient-text { background: linear-gradient(to r, #ffffff, #60a5fa, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    </style>
+        .gradient-text { background: linear-gradient(to r, #ffffff, #60a5fa, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }    </style>
 </head>
 <body class="bg-slate-950 text-slate-100">
     <div id="root"></div>
@@ -98,6 +97,14 @@
                                 </a>
                                 <a href="https://www.linkedin.com/in/mohamed-abd-elwahabe-6889b529a" target="_blank" className="px-8 py-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-2xl font-bold transition-all flex items-center gap-2">
                                     <Icon name="linkedin" className="w-5 h-5" /> LinkedIn
+                                </a>
+                            </div>
+                            <div className="flex flex-wrap justify-center gap-4">
+                                <a href="CV_Mohamed_Sh.pdf" target="_blank" className="px-8 py-4 my-5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-2xl font-bold transition-all flex items-center gap-2">
+                                     Download CV
+                                </a>
+                                <a href="Portfolio_MediaBuyer.pdf" className="px-8 py-4 my-5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-2xl font-bold transition-all flex items-center gap-2">
+                                    View Portfolio
                                 </a>
                             </div>
                         </div>
@@ -284,9 +291,5 @@
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);
     </script>
-    <a href="files/CV_Mohamed_Sh.pdf" target="_blank">Download CV</a>
-<a href="files/Portfolio_MediaBuyer.pdf" target="_blank">View Portfolio</a>
-
 </body>
-
 </html>
